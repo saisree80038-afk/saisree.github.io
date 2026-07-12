@@ -44,9 +44,6 @@ import profileImg from "@/assets/profile.jpg";
 import p1 from "@/assets/project1.jpg";
 import p2 from "@/assets/project2.jpg";
 import p3 from "@/assets/project3.jpg";
-import p4 from "@/assets/project4.jpg";
-import p5 from "@/assets/project5.jpg";
-import p6 from "@/assets/project6.jpg";
 
 /* ---------------- Data ---------------- */
 
