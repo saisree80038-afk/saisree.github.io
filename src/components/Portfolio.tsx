@@ -179,16 +179,10 @@ const EXPERIENCE = [
 
 const EDUCATION = [
   {
-    degree: "B.Tech — Computer Science & Engineering",
-    school: "National Institute of Technology",
-    year: "2021 — 2025",
-    score: "CGPA 8.7 / 10",
-  },
-  {
-    degree: "Higher Secondary (PCM + Computer Science)",
-    school: "Delhi Public School",
-    year: "2019 — 2021",
-    score: "92%",
+    degree: "B.Tech in Computer Science and Engineering (CSM)",
+    school: "Computer Science & Engineering — AI & Machine Learning specialization",
+    year: "Pursuing",
+    score: "Currently Pursuing",
   },
 ];
 
@@ -994,12 +988,16 @@ function Contact() {
           <div className="space-y-4">
             {[
               { icon: Mail, label: "Email", value: "saisree80038@gmail.com", href: "mailto:saisree80038@gmail.com" },
-              { icon: Phone, label: "Phone", value: "+1 (555) 010-2288", href: "tel:+15550102288" },
               { icon: MapPin, label: "Location", value: "Remote · Open worldwide" },
               { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/eediga-saisree", href: "https://www.linkedin.com/in/eediga-saisree-57994031b" },
               { icon: Github, label: "GitHub", value: "github.com/saisree80038-afk", href: "https://github.com/saisree80038-afk" },
             ].map((c) => (
-              <a key={c.label} href={c.href ?? "#"} className="glass flex items-center gap-4 rounded-2xl p-4 transition-transform hover:-translate-y-0.5">
+              <a
+                key={c.label}
+                href={c.href ?? "#"}
+                {...(c.href?.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                className="glass flex items-center gap-4 rounded-2xl p-4 transition-transform hover:-translate-y-0.5"
+              >
                 <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-gradient-primary text-primary-foreground">
                   <c.icon className="h-5 w-5" />
                 </span>
@@ -1079,9 +1077,14 @@ function Footer() {
               { icon: Github, href: "https://github.com/saisree80038-afk" },
               { icon: Linkedin, href: "https://www.linkedin.com/in/eediga-saisree-57994031b" },
               { icon: Mail, href: "mailto:saisree80038@gmail.com" },
-              { icon: Instagram, href: "https://instagram.com" },
             ].map((s, i) => (
-              <a key={i} href={s.href} className="grid h-10 w-10 place-items-center rounded-xl border border-border bg-secondary/40 transition-colors hover:bg-secondary">
+              <a
+                key={i}
+                href={s.href}
+                {...(s.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                aria-label="Social link"
+                className="grid h-10 w-10 place-items-center rounded-xl border border-border bg-secondary/40 transition-colors hover:bg-secondary"
+              >
                 <s.icon className="h-4 w-4" />
               </a>
             ))}
@@ -1089,7 +1092,7 @@ function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-8 max-w-6xl border-t border-border px-4 pt-6 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Eediga Saisree. Crafted with React, Tailwind & a lot of coffee.
+        © 2026 Eediga Saisree. All Rights Reserved.
       </div>
     </footer>
   );
