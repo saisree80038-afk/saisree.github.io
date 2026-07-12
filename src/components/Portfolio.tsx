@@ -44,9 +44,6 @@ import profileImg from "@/assets/profile.jpg";
 import p1 from "@/assets/project1.jpg";
 import p2 from "@/assets/project2.jpg";
 import p3 from "@/assets/project3.jpg";
-import p4 from "@/assets/project4.jpg";
-import p5 from "@/assets/project5.jpg";
-import p6 from "@/assets/project6.jpg";
 
 /* ---------------- Data ---------------- */
 
@@ -112,70 +109,37 @@ const TECH_STACK = [
 
 const PROJECTS = [
   {
-    name: "Nova Analytics",
+    name: "Agro Infinity",
     image: p1,
     tag: "Full Stack",
-    description: "Real-time analytics dashboard for tracking product metrics with beautiful data visualizations.",
-    tech: ["React", "TypeScript", "Node.js", "MongoDB"],
-    features: ["Live data streams", "Custom reports", "Role-based access"],
+    description: "Smart agriculture platform helping farmers monitor crops, predict yields, and connect directly with buyers through an intuitive dashboard.",
+    tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
+    features: ["Crop health tracking", "Market price insights", "Farmer–buyer marketplace", "Weather-aware alerts"],
     status: "Live",
-    github: "https://github.com/saisree80038-afk",
-    demo: "https://example.com",
+    github: "https://github.com/saisree80038-afk/agro-infinity",
+    demo: "https://github.com/saisree80038-afk/agro-infinity",
   },
   {
-    name: "Lumen AI Chat",
+    name: "Saisree Icecream Scoops & Fantasy",
     image: p2,
-    tag: "AI Projects",
-    description: "AI-powered conversational assistant with voice input, memory, and multi-model routing.",
-    tech: ["Next.js", "OpenAI", "Tailwind", "Vercel"],
-    features: ["Voice mode", "Streaming responses", "Prompt library"],
+    tag: "Frontend",
+    description: "Playful, fully responsive website for a boutique ice cream brand with animated menu, flavor customizer, and online ordering.",
+    tech: ["React", "Tailwind", "Framer Motion", "JavaScript"],
+    features: ["Interactive flavor menu", "Cart & checkout flow", "Mobile-first design", "Smooth animations"],
     status: "Live",
-    github: "https://github.com/saisree80038-afk",
-    demo: "https://example.com",
+    github: "https://github.com/saisree80038-afk/saisree-icecream",
+    demo: "https://github.com/saisree80038-afk/saisree-icecream",
   },
   {
-    name: "Vertex Store",
+    name: "Clean-Tech: Waste Management with Transfer Learning",
     image: p3,
-    tag: "Full Stack",
-    description: "Modern e-commerce platform with Stripe checkout, wishlist, and admin dashboard.",
-    tech: ["Next.js", "Stripe", "Prisma", "PostgreSQL"],
-    features: ["Stripe payments", "Inventory sync", "SEO optimized"],
+    tag: "AI Projects",
+    description: "Deep learning system that classifies waste in real time using transfer learning on pre-trained CNNs, enabling smarter recycling and cleaner cities.",
+    tech: ["Python", "TensorFlow", "Keras", "Flask", "React"],
+    features: ["Transfer learning (VGG16/ResNet)", "Real-time image classification", "Web-based prediction UI", "Model accuracy dashboard"],
     status: "Live",
-    github: "https://github.com/saisree80038-afk",
-    demo: "https://example.com",
-  },
-  {
-    name: "Portfolio Constellation",
-    image: p4,
-    tag: "Frontend",
-    description: "Futuristic portfolio template with particle backgrounds and motion-first interactions.",
-    tech: ["React", "Framer Motion", "Tailwind"],
-    features: ["Animated hero", "Dark/light modes", "SEO ready"],
-    status: "Live",
-    github: "https://github.com/saisree80038-afk",
-    demo: "https://example.com",
-  },
-  {
-    name: "Kanbanic",
-    image: p5,
-    tag: "Personal",
-    description: "Collaborative task management with drag-and-drop boards and offline sync.",
-    tech: ["React", "Zustand", "IndexedDB"],
-    features: ["Offline first", "Realtime cursors", "Keyboard flow"],
-    status: "In Progress",
-    github: "https://github.com/saisree80038-afk",
-    demo: "https://example.com",
-  },
-  {
-    name: "Skycast",
-    image: p6,
-    tag: "Frontend",
-    description: "Elegant weather forecasting app with location awareness and animated conditions.",
-    tech: ["React", "OpenWeather API", "Tailwind"],
-    features: ["Geolocation", "7-day forecast", "PWA ready"],
-    status: "Live",
-    github: "https://github.com/saisree80038-afk",
-    demo: "https://example.com",
+    github: "https://github.com/saisree80038-afk/clean-tech-waste-management",
+    demo: "https://github.com/saisree80038-afk/clean-tech-waste-management",
   },
 ];
 
