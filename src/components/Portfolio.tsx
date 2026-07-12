@@ -451,9 +451,14 @@ function Hero() {
               { icon: Github, href: "https://github.com/saisree80038-afk", label: "GitHub" },
               { icon: Linkedin, href: "https://www.linkedin.com/in/eediga-saisree-57994031b", label: "LinkedIn" },
               { icon: Mail, href: "mailto:saisree80038@gmail.com", label: "Email" },
-              { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
             ].map((s) => (
-              <a key={s.label} href={s.href} aria-label={s.label} className="grid h-11 w-11 place-items-center rounded-xl border border-border bg-secondary/40 text-muted-foreground backdrop-blur transition-all hover:-translate-y-0.5 hover:text-foreground hover:shadow-glow">
+              <a
+                key={s.label}
+                href={s.href}
+                {...(s.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                aria-label={s.label}
+                className="grid h-11 w-11 place-items-center rounded-xl border border-border bg-secondary/40 text-muted-foreground backdrop-blur transition-all hover:-translate-y-0.5 hover:text-foreground hover:shadow-glow"
+              >
                 <s.icon className="h-4 w-4" />
               </a>
             ))}
