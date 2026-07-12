@@ -119,7 +119,7 @@ const PROJECTS = [
     tech: ["React", "TypeScript", "Node.js", "MongoDB"],
     features: ["Live data streams", "Custom reports", "Role-based access"],
     status: "Live",
-    github: "https://github.com",
+    github: "https://github.com/saisree80038-afk",
     demo: "https://example.com",
   },
   {
@@ -130,7 +130,7 @@ const PROJECTS = [
     tech: ["Next.js", "OpenAI", "Tailwind", "Vercel"],
     features: ["Voice mode", "Streaming responses", "Prompt library"],
     status: "Live",
-    github: "https://github.com",
+    github: "https://github.com/saisree80038-afk",
     demo: "https://example.com",
   },
   {
@@ -141,7 +141,7 @@ const PROJECTS = [
     tech: ["Next.js", "Stripe", "Prisma", "PostgreSQL"],
     features: ["Stripe payments", "Inventory sync", "SEO optimized"],
     status: "Live",
-    github: "https://github.com",
+    github: "https://github.com/saisree80038-afk",
     demo: "https://example.com",
   },
   {
@@ -152,7 +152,7 @@ const PROJECTS = [
     tech: ["React", "Framer Motion", "Tailwind"],
     features: ["Animated hero", "Dark/light modes", "SEO ready"],
     status: "Live",
-    github: "https://github.com",
+    github: "https://github.com/saisree80038-afk",
     demo: "https://example.com",
   },
   {
@@ -163,7 +163,7 @@ const PROJECTS = [
     tech: ["React", "Zustand", "IndexedDB"],
     features: ["Offline first", "Realtime cursors", "Keyboard flow"],
     status: "In Progress",
-    github: "https://github.com",
+    github: "https://github.com/saisree80038-afk",
     demo: "https://example.com",
   },
   {
@@ -174,7 +174,7 @@ const PROJECTS = [
     tech: ["React", "OpenWeather API", "Tailwind"],
     features: ["Geolocation", "7-day forecast", "PWA ready"],
     status: "Live",
-    github: "https://github.com",
+    github: "https://github.com/saisree80038-afk",
     demo: "https://example.com",
   },
 ];
@@ -261,7 +261,7 @@ const SERVICES = [
 ];
 
 const TESTIMONIALS = [
-  { name: "Priya Sharma", role: "Product Manager, Nebula Labs", rating: 5, text: "Alex ships fast and thinks about the user. The dashboard he built raised our activation by 24%." },
+  { name: "Priya Sharma", role: "Product Manager, Nebula Labs", rating: 5, text: "Saisree ships fast and thinks about the user. The dashboard he built raised our activation by 24%." },
   { name: "Marco Weiss", role: "Founder, Vertex", rating: 5, text: "Incredible eye for design and unusually clean code. Would hire again in a heartbeat." },
   { name: "Aisha Khan", role: "Design Lead, Lumen", rating: 5, text: "Best Figma-to-React handoff I've ever worked with. Motion details on point." },
 ];
@@ -405,7 +405,7 @@ function Nav({ theme, setTheme }: { theme: "dark" | "light"; setTheme: (t: "dark
             <span className="grid h-8 w-8 place-items-center rounded-lg bg-gradient-primary text-primary-foreground">
               <Code2 className="h-4 w-4" />
             </span>
-            <span className="text-gradient">Alex.dev</span>
+            <span className="text-gradient">Saisree.dev</span>
           </a>
           <nav className="hidden items-center gap-1 md:flex">
             {NAV.map((n) => (
@@ -467,7 +467,7 @@ function Hero() {
             Available for new projects
           </div>
           <h1 className="text-5xl font-bold leading-[1.05] sm:text-6xl lg:text-7xl">
-            Hi, I'm <span className="text-gradient">Alex Morgan</span>
+            Hi, I'm <span className="text-gradient">Eediga Saisree</span>
           </h1>
           <div className="mt-4 flex flex-wrap items-center gap-3 font-mono text-lg text-muted-foreground sm:text-xl">
             <span className="text-neon-cyan">&gt;</span>
@@ -492,9 +492,9 @@ function Hero() {
           </div>
           <div className="mt-8 flex items-center gap-3">
             {[
-              { icon: Github, href: "https://github.com", label: "GitHub" },
-              { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:hello@alex.dev", label: "Email" },
+              { icon: Github, href: "https://github.com/saisree80038-afk", label: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/eediga-saisree-57994031b", label: "LinkedIn" },
+              { icon: Mail, href: "mailto:saisree80038@gmail.com", label: "Email" },
               { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
             ].map((s) => (
               <a key={s.label} href={s.href} aria-label={s.label} className="grid h-11 w-11 place-items-center rounded-xl border border-border bg-secondary/40 text-muted-foreground backdrop-blur transition-all hover:-translate-y-0.5 hover:text-foreground hover:shadow-glow">
@@ -507,7 +507,7 @@ function Hero() {
         <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8, delay: 0.2 }} className="relative mx-auto w-full max-w-md">
           <div className="absolute inset-0 -z-10 rounded-[2rem] bg-gradient-primary blur-3xl opacity-40" />
           <div className="glass relative overflow-hidden rounded-[2rem] p-3 shadow-glow">
-            <img src={profileImg} alt="Alex Morgan" width={768} height={768} className="w-full rounded-[1.5rem] object-cover" />
+            <img src={profileImg} alt="Eediga Saisree" width={768} height={768} className="w-full rounded-[1.5rem] object-cover" />
             <div className="pointer-events-none absolute inset-3 rounded-[1.5rem] ring-1 ring-inset ring-white/10" />
           </div>
           {[
@@ -546,7 +546,7 @@ function About() {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="glass rounded-2xl p-6 lg:col-span-2">
             <h3 className="mb-3 text-xl font-semibold">Who I am</h3>
             <p className="text-muted-foreground">
-              I'm Alex — a software developer specializing in modern front-end engineering. I love the moment when a
+              I'm Saisree — a software developer specializing in modern front-end engineering. I love the moment when a
               well-designed interface just clicks: readable code, calm motion, and interactions that feel obvious in hindsight.
               Over the last three years I've shipped everything from tiny landing pages to full-stack dashboards.
             </p>
@@ -943,7 +943,7 @@ function GitHubStats() {
                   </div>
                 ))}
               </div>
-              <a href="https://github.com" className="mt-6 inline-flex items-center gap-2 rounded-xl border border-border bg-secondary/40 px-4 py-2 text-sm transition-colors hover:bg-secondary">
+              <a href="https://github.com/saisree80038-afk" className="mt-6 inline-flex items-center gap-2 rounded-xl border border-border bg-secondary/40 px-4 py-2 text-sm transition-colors hover:bg-secondary">
                 <Github className="h-4 w-4" /> View full profile
               </a>
             </div>
@@ -1029,11 +1029,11 @@ function Contact() {
         <div className="grid gap-6 lg:grid-cols-[1fr_1.2fr]">
           <div className="space-y-4">
             {[
-              { icon: Mail, label: "Email", value: "hello@alex.dev", href: "mailto:hello@alex.dev" },
+              { icon: Mail, label: "Email", value: "saisree80038@gmail.com", href: "mailto:saisree80038@gmail.com" },
               { icon: Phone, label: "Phone", value: "+1 (555) 010-2288", href: "tel:+15550102288" },
               { icon: MapPin, label: "Location", value: "Remote · Open worldwide" },
-              { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/alex", href: "https://linkedin.com" },
-              { icon: Github, label: "GitHub", value: "github.com/alex", href: "https://github.com" },
+              { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/eediga-saisree", href: "https://www.linkedin.com/in/eediga-saisree-57994031b" },
+              { icon: Github, label: "GitHub", value: "github.com/saisree80038-afk", href: "https://github.com/saisree80038-afk" },
             ].map((c) => (
               <a key={c.label} href={c.href ?? "#"} className="glass flex items-center gap-4 rounded-2xl p-4 transition-transform hover:-translate-y-0.5">
                 <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-gradient-primary text-primary-foreground">
@@ -1094,7 +1094,7 @@ function Footer() {
             <span className="grid h-8 w-8 place-items-center rounded-lg bg-gradient-primary text-primary-foreground">
               <Code2 className="h-4 w-4" />
             </span>
-            <span className="text-gradient">Alex.dev</span>
+            <span className="text-gradient">Saisree.dev</span>
           </div>
           <p className="mt-3 max-w-xs text-sm text-muted-foreground">
             Building modern, scalable, and user-friendly digital experiences.
@@ -1112,9 +1112,9 @@ function Footer() {
           <div className="mb-3 text-xs uppercase tracking-wider text-muted-foreground">Elsewhere</div>
           <div className="flex gap-2">
             {[
-              { icon: Github, href: "https://github.com" },
-              { icon: Linkedin, href: "https://linkedin.com" },
-              { icon: Mail, href: "mailto:hello@alex.dev" },
+              { icon: Github, href: "https://github.com/saisree80038-afk" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/eediga-saisree-57994031b" },
+              { icon: Mail, href: "mailto:saisree80038@gmail.com" },
               { icon: Instagram, href: "https://instagram.com" },
             ].map((s, i) => (
               <a key={i} href={s.href} className="grid h-10 w-10 place-items-center rounded-xl border border-border bg-secondary/40 transition-colors hover:bg-secondary">
@@ -1125,7 +1125,7 @@ function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-8 max-w-6xl border-t border-border px-4 pt-6 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Alex Morgan. Crafted with React, Tailwind & a lot of coffee.
+        © {new Date().getFullYear()} Eediga Saisree. Crafted with React, Tailwind & a lot of coffee.
       </div>
     </footer>
   );
