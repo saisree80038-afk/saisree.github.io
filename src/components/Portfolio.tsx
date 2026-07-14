@@ -38,7 +38,9 @@ import {
   Boxes,
   Terminal,
 } from "lucide-react";
-import profileImg from "@/assets/profile.jpg";
+import profileAsset from "@/assets/saisree-profile.jpeg.asset.json";
+import resumeAsset from "@/assets/saisree-resume.pdf.asset.json";
+const profileImg = profileAsset.url;
 import p1 from "@/assets/project1.jpg";
 import p2 from "@/assets/project2.jpg";
 import p3 from "@/assets/project3.jpg";
@@ -56,10 +58,10 @@ const NAV = [
 ];
 
 const TYPING = [
-  "Front-End Developer",
-  "React & Next.js Engineer",
-  "UI/UX Enthusiast",
-  "Software Developer",
+  "Frontend Developer",
+  "MERN Stack Enthusiast",
+  "React.js Developer",
+  "Aspiring Full Stack Developer",
 ];
 
 const SKILLS = {
@@ -431,13 +433,13 @@ function Hero() {
             <span className="inline-block h-5 w-[2px] bg-foreground animate-blink" />
           </div>
           <p className="mt-6 max-w-xl text-lg text-muted-foreground">
-            Building modern, scalable, and user-friendly digital experiences.
+            Passionate Computer Science student and aspiring Full Stack Developer skilled in React.js, JavaScript, Node.js, Express.js, and MongoDB.
           </p>
           <p className="mt-3 max-w-xl text-muted-foreground">
-            I'm a front-end and software developer who loves shipping crisp interfaces, thoughtful motion, and code that ages well.
+            I enjoy building modern web applications and solving real-world problems through technology.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <a href="/resume.pdf" className="group inline-flex items-center gap-2 rounded-xl bg-gradient-primary px-5 py-3 font-medium text-primary-foreground shadow-glow transition-transform hover:scale-[1.03]">
+            <a href={resumeAsset.url} target="_blank" rel="noopener noreferrer" download="Eediga-Saisree-Resume.pdf" className="group inline-flex items-center gap-2 rounded-xl bg-gradient-primary px-5 py-3 font-medium text-primary-foreground shadow-glow transition-transform hover:scale-[1.03]">
               <Download className="h-4 w-4 transition-transform group-hover:translate-y-0.5" />
               Download Resume
             </a>
