@@ -317,6 +317,8 @@ function SectionTitle({ eyebrow, title, subtitle }: { eyebrow: string; title: st
 /* ---------------- Backgrounds ---------------- */
 
 function Particles() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
   const dots = useMemo(
     () =>
       Array.from({ length: 40 }).map((_, i) => ({
@@ -329,6 +331,7 @@ function Particles() {
       })),
     [],
   );
+  if (!mounted) return null;
   return (
     <div className="pointer-events-none absolute inset-0 overflow-hidden">
       {dots.map((d) => (
