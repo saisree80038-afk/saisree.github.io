@@ -41,7 +41,7 @@ import {
 import profileAsset from "@/assets/saisree-profile.jpeg.asset.json";
 import resumeAsset from "@/assets/saisree-resume.pdf.asset.json";
 const profileImg = profileAsset.url;
-import p1 from "@/assets/project1.jpg";
+
 import p2 from "@/assets/project2.jpg";
 import p3 from "@/assets/project3.jpg";
 
@@ -108,17 +108,7 @@ const TECH_STACK = [
 ];
 
 const PROJECTS = [
-  {
-    name: "Agro Infinity",
-    image: p1,
-    tag: "Full Stack",
-    description: "Smart agriculture platform helping farmers monitor crops, predict yields, and connect directly with buyers through an intuitive dashboard.",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
-    features: ["Crop health tracking", "Market price insights", "Farmer–buyer marketplace", "Weather-aware alerts"],
-    status: "Live",
-    github: "https://github.com/saisree80038-afk/agro-infinity",
-    demo: "https://github.com/saisree80038-afk/agro-infinity",
-  },
+
   {
     name: "Saisree Icecream Scoops & Fantasy",
     image: p2,
