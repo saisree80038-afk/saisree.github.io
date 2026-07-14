@@ -514,7 +514,7 @@ function About() {
               Over the last three years I've shipped everything from tiny landing pages to full-stack dashboards.
             </p>
             <p className="mt-4 text-muted-foreground">
-              I graduated in Computer Science and Engineering with a focus on human-computer interaction. My career objective is
+              I am pursuing in Computer Science and Engineering with AI&ML a focus on human-computer interaction. My career objective is
               to keep working at the intersection of design and engineering — building products that people actually enjoy using
               and that scale gracefully as they grow.
             </p>
