@@ -81,9 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Portfolio of Eediga Saisree — front-end developer building modern, scalable, user-friendly digital experiences with React, Next.js and TypeScript." },
       { name: "author", content: "Eediga Saisree" },
       { property: "og:title", content: "Eediga Saisree — Front-End Developer" },
-      { property: "og:description", content: "Building modern, scalable, and user-friendly digital experiences." },
+      { property: "og:description", content: "Portfolio of Eediga Saisree — front-end developer building modern, scalable, user-friendly digital experiences with React, Next.js and TypeScript." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Eediga Saisree — Front-End Developer" },
+      { name: "twitter:description", content: "Portfolio of Eediga Saisree — front-end developer building modern, scalable, user-friendly digital experiences with React, Next.js and TypeScript." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39fa46d4-9f01-40e6-a91a-0023b2e6c5c6/id-preview-9315c329--94e67d73-99e0-43b2-9881-9055e3665359.lovable.app-1784036847356.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39fa46d4-9f01-40e6-a91a-0023b2e6c5c6/id-preview-9315c329--94e67d73-99e0-43b2-9881-9055e3665359.lovable.app-1784036847356.png" },
     ],
     links: [
       {
